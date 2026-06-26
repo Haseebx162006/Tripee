@@ -11,6 +11,7 @@ function ContactForm({ img, title = "Get in Touch with Us", subtitle = "We'd lov
             src={img} 
             alt="Contact Illustration" 
             className="w-full h-full object-cover absolute inset-0"
+            loading="lazy"
           />
         </div>
 

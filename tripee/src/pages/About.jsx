@@ -70,7 +70,7 @@ function About() {
         
         {/* Left Side: Image */}
         <div className="relative w-full md:w-1/2 pr-0 md:pr-8">
-          <img src={sideImg} alt="Travel Boat" className="w-full h-[350px] md:h-[450px] object-cover rounded-xl shadow-md" />
+          <img src={sideImg} alt="Travel Boat" className="w-full h-[350px] md:h-[450px] object-cover rounded-xl shadow-md" loading="lazy" />
         </div>
 
         {/* Right Side: Features List */}

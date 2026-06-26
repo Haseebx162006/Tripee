@@ -3,7 +3,7 @@ import React from 'react'
 function FeatureCard(props) {
   return (
     <div className='bg-white rounded-xl shadow-lg overflow-hidden w-80 md:w-96 shrink-0 flex flex-col mb-8 transition-transform hover:-translate-y-2 hover:shadow-2xl cursor-pointer'>
-        <img src={props.img} alt={props.title} className='w-full h-56 object-cover' />
+        <img src={props.img} alt={props.title} className='w-full h-56 object-cover' loading='lazy' />
         <div className='p-6 flex-grow flex flex-col'>
             <h3 className='text-2xl font-bold mb-2 text-gray-800'>{props.title}</h3>
             <p className='text-gray-600 mb-6 flex-grow line-clamp-3'>{props.description}</p>
