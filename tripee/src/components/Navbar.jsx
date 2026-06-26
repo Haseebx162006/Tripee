@@ -13,9 +13,9 @@ function Navbar() {
         
             <ul className='hidden md:flex items-center space-x-6 text-white font-semibold'>
                 <li><NavLink to='/'>Home</NavLink></li>
-                <li><NavLink to='/about'>About</NavLink></li>
-                <li><NavLink to='/tour'>Tour</NavLink></li>
-                <li><NavLink to='/contact'>Contact</NavLink></li>
+                <li><NavLink to='/about'>About Us</NavLink></li>
+                <li><NavLink to='/tour'>Tours</NavLink></li>
+                <li><NavLink to='/contact'>Contact Us</NavLink></li>
                 <button className="bg-red-500 px-4 py-2 rounded-md text-white hover:bg-red-600 transition">Book Now</button>
             </ul>
 

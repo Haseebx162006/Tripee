@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
-import contactImg from '../assets/Hero1.jpg';
+import contactImg from '../assets/Hero3.jpg';
 
 function ContactUs() {
   return (
