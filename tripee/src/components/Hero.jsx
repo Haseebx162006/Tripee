@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 function Hero({ img }) {
   return (
      <div className='relative min-h-screen flex flex-col items-center justify-center pt-24 pb-12'>
-      <Navbar/>
       
       {/* Background Image */}
       <img
@@ -36,9 +34,9 @@ function Hero({ img }) {
               Location
             </div>
             <select className='w-full md:w-32 lg:w-40 border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-600 focus:outline-none focus:ring-2 focus:ring-red-500'>
-              <option value='bali'>Bali</option>
-              <option value='paris'>Paris</option>
-              <option value='tokyo'>Tokyo</option>
+              <option value='Pakistan'>Pakistan</option>
+              <option value='Turkey'>Turkey</option>
+              <option value='China'>China</option>
             </select>
           </div>
 
