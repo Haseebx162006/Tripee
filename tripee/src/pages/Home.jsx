@@ -4,7 +4,7 @@ import FeatureCard from '../components/FeatureCard';
 import ScrollContainer from '../components/ScrollContainer';
 import ServiceCard from '../components/ServiceCard';
 import mountainImg from '../assets/Hero4.jpg';
-import cardImg1 from '../assets/space.jpg';
+import cardImg1 from '../assets/Space.jpg';
 import cardImg2 from '../assets/Hero2.jpg';
 import cardImg3 from '../assets/Hero5.jpg';
 import cardImg4 from '../assets/Hero3.jpg';
